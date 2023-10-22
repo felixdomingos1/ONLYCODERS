@@ -1,0 +1,109 @@
+.action-card {
+    display: flex;
+    font-size: 10px;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    padding-top: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .action-card h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    margin-top: 15px;
+}
+.action-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .action-card li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .action-card li span {
+    font-size: 12px;
+  }  
+  .action-card li span {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .action-card li span:after {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-left: 5px;
+  }
+  .action-card li .username {
+    padding-left: 4px;
+    padding-bottom: -5px;
+    font-size: 12px;
+    color: #999;
+    display: block;
+  }
+
+  .action-card li .member-container {
+    position: relative;
+  }
+  
+  .action-card li .notification {
+    position: absolute;
+    bottom: -4px;
+    right: 10px;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    font-size: 10px;
+    color: white; 
+    border: 1px solid #fff;
+    background-color: #181b4f;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+  
+   .action-card li img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    position: relative;
+    border: 2px solid #3c4cc6;
+    border-radius: 0;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }  
+  .action-card li img:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 48px;
+    height: 48px;
+    border: 2px solid white;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+  .join-button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    
+  }
+  .group-actionss {
+    display: flex;
+    justify-content: flex-end;
+    width: 7%;
+    margin-top: 35px;
+  }
+.action-card button{
+  font-size: 10px;
+}

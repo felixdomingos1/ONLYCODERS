@@ -1,0 +1,97 @@
+.post {
+    border: 1px #e1e1e8;
+    border-radius: 15px;
+    padding: 16px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    background-color: white;
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .post-author {
+    display: flex;
+  }
+  
+  .post-author img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+  }
+  
+  .post-author-name {
+    margin-left: 8px;
+    font-weight: bold;
+  }
+  
+  .post-author-badge {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 6px;
+    font-size: 12px;
+    border-radius: 15px;
+    margin: 6px;
+    font-weight: bold;
+    width: 100px;
+  } 
+  
+  .post-meta {
+    font-size: 12px;
+    color: #999;
+  }
+  
+  .post-topic {
+    font-weight: bold;
+  }
+  
+  .post-forum {
+    font-style: italic;
+  }
+  
+  .post-time {
+    font-size: 12px;
+    color: #999;
+    margin-left: auto;
+  }
+  
+  .post-content {
+    margin-top: 16px;
+  }
+  .post-content img{
+    width: 100%;
+    height: 20rem;
+  }
+  .post-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+  
+  .post-reactions,
+  .post-comments,
+  .post-shares {
+    float: right;
+  }
+  
+  .post-reactions span,
+  .post-comments span,
+  .post-shares span {
+    margin-left: 4px;
+    font-size: 12px;
+    color: #999;
+  }
+  
+  .post-author img {
+    width: 40px;
+    height: 40px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    margin-right: 10px;
+    position: relative;
+    border: 2px solid #1da1f2;
+    border-radius: 0;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+  

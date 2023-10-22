@@ -1,0 +1,17 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./components/form.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+.container{
+   margin: 0;
+   padding: 30px 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 100%;
+}
+.container h4{
+   color: #953bda;
+   font-size: 4rem;
+   font-weight: 550;
+}
